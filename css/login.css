@@ -1,0 +1,183 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: Arial,微软雅黑,Helvetica;
+}
+input select{
+	outline: none;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	/*color: #999;*/
+}
+.content{
+	width: 500px;
+	height: 500px;
+	margin:100px auto;
+	background: #eee;
+}
+.content .login-box{
+	width: 100%;
+	height: 100%;
+	margin:130px 0 100px 0;
+	padding: 10px 50px;
+	box-sizing: border-box;
+	background: #fff;
+}
+.login-box h1{
+	font-size: 42px;
+	color: #ff9d00;
+	text-align: center;
+}
+.login-box h3{
+	font-size: 20px;
+	color: #333;
+	margin-top: 10px;
+	text-align: center;
+}
+.login-box .login-main{
+	width: 100%;
+	height: 350px;
+	margin-top: 15px;
+	/*background: skyblue;*/
+}
+.login-main .tit{
+	width: 100%;
+	height: 45px;
+	/*background: yellow;*/
+	padding: 0 120px;
+	box-sizing: border-box;
+}
+.login-main .tit a{
+	display: inline-block;
+	width: 40%;
+	height: 100%;
+	text-align: center;
+	font-size: 18px;
+	color: #666;
+	font-weight: 1000px;
+	line-height: 45px;
+	
+}
+.login-main .form{
+	width: 100%;
+	height: 250px;
+	/*background: purple;*/
+}
+.form .user{
+	width: 100%;
+	height: 45px;
+	margin-top: 15px;
+	padding: 5px 0px;
+	box-sizing: border-box;
+	/*background: blue;*/
+	border:1px solid #ff9d00;
+	border-radius: 5px;
+}
+.user i{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background: red;
+
+}
+.user input{
+	width: 90%;
+	height: 30px;
+	font-size: 16px;
+	color: #888;
+	padding: 0 10px;
+    box-sizing: border-box;
+    border:none;
+}
+.form .password{
+	width: 100%;
+	height: 45px;
+	margin-top: 18px;
+	padding: 5px 0px;
+	box-sizing: border-box;
+	/*background: blue;*/
+	border:1px solid #ff9d00;
+	border-radius: 5px;
+}
+.password i{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	/*background: red;*/
+
+}
+.password input{
+	width: 90%;
+	height: 30px;
+	font-size: 16px;
+	border:none;
+	padding: 0 10px;
+	color: #666;
+}
+.form .button{
+	width: 100%;
+	height: 45px;
+	margin-top: 18px;
+	background: #fff;
+	text-align: center;
+	border-radius: 5px;
+}
+.button button{
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 18px;
+	background: #ff9d00;
+    line-height: 45px;
+    letter-spacing: 7px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.button button:hover{
+	opacity: .9;
+}
+.form .remember{
+	width: 100%;
+	height: 30px;
+	/*background: skyblue;*/
+	line-height: 30px;
+}
+.remember .check{
+	display:inline-block;
+	float:left;
+}
+.remember .check span {
+	color: #666;
+	position: relative;
+	top: -3px;
+}
+.remember .check input{
+	margin-top:7px;
+	width: 17px;
+	height: 17px;
+}
+.remember .forget{
+	display:inline-block;
+	float: right;
+}
+.remember .forget a{
+	color: #666;
+}
+.remember .forget a:hover{
+	color: #ff9d00;
+}
+
+
+
+
+
+
+
+
